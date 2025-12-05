@@ -1,0 +1,302 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login With Invalid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 477891600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5012902699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (F:\\playWrightBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters invalid credentials",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should see an error message",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288958799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Successful Login With Valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 417098200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2974646300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user enters valid credentials",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91717400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should be logged in successfully",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9808699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user clicks on the hamburger menu and verify all the menu options",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38359399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user closes the hamburger menu",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837227800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be able to add all the products to the cart which has value less then 16$",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1889938000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user scroll to the header",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 508707000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user should be able to verify the number of items added in the cart badge",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7460300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user click on the cart icon",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22336100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user verify the products in the cart page",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:125"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7045200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26249100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user enters the checkout details",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59349000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "user verifies the total amount in the overview page",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6991200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "user clicks on the finish button",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23679500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user verifies the thank you message on the completion page",
+            "match": {
+              "location": "src\\step-definitions\\loginSteps.js:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8555099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269538199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]
