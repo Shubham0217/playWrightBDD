@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 477891600
+              "duration": 844079800
             }
           },
           {
@@ -26,9 +26,8 @@
               "location": "src\\step-definitions\\loginSteps.js:6"
             },
             "result": {
-              "status": "failed",
-              "duration": 5012902699,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (F:\\playWrightBDD\\node_modules\\@cucumber\\cucumber\\lib\\time.js:64:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 691286200
             }
           },
           {
@@ -40,8 +39,8 @@
               "location": "src\\step-definitions\\loginSteps.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 93357700
             }
           },
           {
@@ -53,8 +52,8 @@
               "location": "src\\step-definitions\\loginSteps.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 19897899
             }
           },
           {
@@ -62,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 288958799
+              "duration": 300788800
             }
           }
         ],
@@ -81,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 417098200
+              "duration": 430769400
             }
           },
           {
@@ -94,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2974646300
+              "duration": 449932000
             }
           },
           {
@@ -107,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91717400
+              "duration": 110564100
             }
           },
           {
@@ -120,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9808699
+              "duration": 10528399
             }
           },
           {
@@ -133,7 +132,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38359399
+              "duration": 51249499
             }
           },
           {
@@ -146,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 837227800
+              "duration": 841198800
             }
           },
           {
@@ -159,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1889938000
+              "duration": 1890766599
             }
           },
           {
@@ -172,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 508707000
+              "duration": 509331699
             }
           },
           {
@@ -185,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7460300
+              "duration": 6979199
             }
           },
           {
@@ -198,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22336100
+              "duration": 25085100
             }
           },
           {
@@ -207,11 +206,11 @@
             "line": 18,
             "name": "user verify the products in the cart page",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:125"
+              "location": "src\\step-definitions\\loginSteps.js:124"
             },
             "result": {
               "status": "passed",
-              "duration": 7045200
+              "duration": 8937500
             }
           },
           {
@@ -220,11 +219,11 @@
             "line": 19,
             "name": "user clicks on checkout button",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:145"
+              "location": "src\\step-definitions\\loginSteps.js:144"
             },
             "result": {
               "status": "passed",
-              "duration": 26249100
+              "duration": 22227600
             }
           },
           {
@@ -233,11 +232,11 @@
             "line": 20,
             "name": "user enters the checkout details",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:149"
+              "location": "src\\step-definitions\\loginSteps.js:148"
             },
             "result": {
               "status": "passed",
-              "duration": 59349000
+              "duration": 59771600
             }
           },
           {
@@ -246,11 +245,11 @@
             "line": 21,
             "name": "user verifies the total amount in the overview page",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:153"
+              "location": "src\\step-definitions\\loginSteps.js:152"
             },
             "result": {
               "status": "passed",
-              "duration": 6991200
+              "duration": 6312500
             }
           },
           {
@@ -259,11 +258,11 @@
             "line": 22,
             "name": "user clicks on the finish button",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:157"
+              "location": "src\\step-definitions\\loginSteps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 23679500
+              "duration": 23483299
             }
           },
           {
@@ -272,11 +271,11 @@
             "line": 23,
             "name": "user verifies the thank you message on the completion page",
             "match": {
-              "location": "src\\step-definitions\\loginSteps.js:161"
+              "location": "src\\step-definitions\\loginSteps.js:160"
             },
             "result": {
               "status": "passed",
-              "duration": 8555099
+              "duration": 7351599
             }
           },
           {
@@ -284,7 +283,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 269538199
+              "duration": 291243100
             }
           }
         ],
