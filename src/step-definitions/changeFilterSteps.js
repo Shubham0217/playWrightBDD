@@ -14,7 +14,7 @@ Given('User login using vaid crenedtails', async()=>{
 
 })
 
-When('User is on the Dashboard page'), async() =>{
+When('User is on the Dashboard page', async() =>{
 
     const changeFilter = new changeFilter();
 
@@ -22,12 +22,12 @@ When('User is on the Dashboard page'), async() =>{
 
     await selectFilterOption('Price (low to high)');
 
-}
+})
 
-Then ('user should be able to verify the options in the filter'), async()=>{
+Then ('user should be able to verify the options in the filter', async()=>{
 
     const changeFilter = new changeFilter();
 
-}
+})
 
 
