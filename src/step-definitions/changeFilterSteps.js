@@ -27,6 +27,8 @@ When('User is on the Dashboard page', async() =>{
 Then ('user should be able to verify the options in the filter', async()=>{
 
     const changeFilter = new changeFilter();
+    await changeFilter.verifyFilterOptions();
+
 
 })
 
