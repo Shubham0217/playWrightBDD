@@ -18,6 +18,7 @@ class LoginPage {
     if (!errorText || !errorText.includes('Epic sadface: Username and password do not match any user in this service')) {
       throw new Error('Expected error message not found');
     }
+    
   }
 
   async verifyLogin() {
