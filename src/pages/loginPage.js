@@ -7,9 +7,9 @@ class LoginPage {
   }
   
   async login(username, password) {
-    await this.page.fill('#user-name', username);
-    await this.page.fill('#password', password);
-    await this.page.click('#login-button');
+    await this.page.getByRole('textbox', { name: 'Username' }).fill(username);
+    await this.page.getByPlaceholder('Password').fill(password);
+    await this.page.getByRole('button', { name: 'Login' }).click();
   }
 
   async verifyLoginError() {
