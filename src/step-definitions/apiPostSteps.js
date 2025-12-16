@@ -17,7 +17,7 @@ When(
     response = await apiContext.post('https://reqres.in/api/users', {
 
       headers: {
-            //'Authorization': 'Bearer reqres_9452f03cf7f342a1b6eb9d0585b8fa9e'
+            'Authorization': 'Bearer reqres_9452f03cf7f342a1b6eb9d0585b8fa9e'
         },
 
       data: {
